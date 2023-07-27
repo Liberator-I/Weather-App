@@ -66,7 +66,7 @@ let convertCountryCode = (country) => {
 }
 
 let getWeather = () => {
-    const API_KEY = '5279621a170d92cc2a012e920de9dabf';
+    const API_KEY = ''; //API KEY goes here
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${currCity}&appid=${API_KEY}&units=${units}`).then(res => res.json()).then(data => {
         city.innerHTML = `${data.name}, ${convertCountryCode(data.sys.country)}`
