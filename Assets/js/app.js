@@ -87,22 +87,5 @@ let getWeather = () => {
 }
 
 // ----- Backround change with time
-// let backgroundUpdate = () => {
-//     let currDate = new Date();
-//     let currTime = currDate.getHours();
-//     let ft = currDate.toLocaleString('en-US', {
-//         hour: 'numeric',
-//         minute: 'numeric',
-//         hour12: true
-//     });
-
-//     if()
-// }
 
 document.addEventListener('load', getWeather(), backgroundUpdate());
-
-// let currTime = new Date().getHours();
-//     console.log(currTime)
-//     if(currTime < 10) {
-//         container.style.background = 'linear-gradient(135deg,#5b548a, hsl(180, 100%, 40%))';
-//     }
