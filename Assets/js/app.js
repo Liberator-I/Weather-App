@@ -56,7 +56,7 @@ let convertTimeStamp = (timestamp, timezone) => {
         timeZone: `Etc/GMT${convertTimezone >= 0 ? '-':'+'}${Math.abs(convertTimezone)}`,
         hour12: true,
     }
-    return date.toLocaleString('en-US', options)
+    return date.toLocaleString('en-US', options);
 }
 
 // ----- Country Code to name
@@ -88,4 +88,4 @@ let getWeather = () => {
 
 // ----- Backround change with time
 
-document.addEventListener('load', getWeather(), backgroundUpdate());
+document.addEventListener('load', getWeather());
