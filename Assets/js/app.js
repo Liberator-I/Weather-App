@@ -1,5 +1,5 @@
 // ----- City
-let currCity = 'London';
+let currCity = 'Durban';
 let units = 'metric';
 
 // ----- Getting html elements
